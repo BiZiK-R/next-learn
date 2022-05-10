@@ -1,4 +1,4 @@
-import A from "../components/A"
+import Link from "next/link"
 
 export default function Error() {
   return (
@@ -6,7 +6,9 @@ export default function Error() {
         <h1>
             Такой страницы нет
         </h1>
-        <A href='/' text='Перейти на Главную страницу' />
+        <Link href='/'>
+          <button className="toggle-btn">Вернуться на главную страницу</button>
+        </Link>  
     </div>
   )
 }

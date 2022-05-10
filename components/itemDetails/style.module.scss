@@ -1,0 +1,24 @@
+.ItemDetails {
+    background-color: #fff;
+    padding: 25px 25px 15px 25px;
+    margin-bottom: 40px;
+    color: #212529;
+
+    h4 {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    &__list {
+        display: flex;
+        flex-direction: column;
+        padding-left: 0;
+        margin-bottom: 0;
+    }
+}
+
+.selectError {
+    color: #fff;
+    text-align: center;
+    font-size: 26px;
+}
